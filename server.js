@@ -27,4 +27,4 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // This is the crucial line for Netlify deployment
-module.exports.handler = serverless(app);
+module.exports = app;
